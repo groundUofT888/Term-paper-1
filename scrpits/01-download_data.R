@@ -17,7 +17,7 @@ data_2023 <- data %>%
   filter(lubridate::year(collectionDate) == 2023)
 write_csv(
   x = data_2023,
-  file = "inputs/data/unedited_data_2023.csv"
+  file = "inputs/data/edited_data_2023.csv"
 )
 
 head(data_2023)
